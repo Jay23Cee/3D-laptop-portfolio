@@ -23,6 +23,7 @@ export default function Experience()
         </mesh>
 <PresentationControls
     global
+ 
     rotation={[0.13,0.09, 0]}
     polar={[- 0.4 , 0.2]} 
     azimuth={[-.9,0.50]}
@@ -39,6 +40,7 @@ export default function Experience()
     rotation={[0.1, Math.PI, 0]}
     position={[0, 0.55, -1.15]}
 />
+
     <primitive 
     object={ computer.scene }
     position-y={-1.2}
@@ -59,8 +61,8 @@ export default function Experience()
 
     <Text
         font="./bangers-v20-latin-regular.woff"
-        fontSize={1}
-        position={[2, 0.75, 0.75]}
+        fontSize={.99}
+        position={[2, 0.75, 0.5]}
         rotation-y={-1.25}
         maxWidth={2}
         textAlign='center'
