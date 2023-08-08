@@ -24,5 +24,16 @@ JC's Virtual Voyage offers an interactive, immersive experience by presenting a 
 - **Drei**: A collection of handy components for R3F.
 
 ## How to Run:
-[Include instructions on how to set up and run the project in a Vue context.]
 
+1. **Clone the Repository**:
+git clone https://github.com/Jay23Cee/3D-laptop-portfolio.git
+
+
+2. **Install Dependencies**:
+npm install
+
+3. **Start the Development Server**:
+npm run dev
+
+
+The application should now be running on a local server (usually `http://localhost:3000` or a port specified in your project configuration). Open the provided URL in your web browser to view and interact with the application.
